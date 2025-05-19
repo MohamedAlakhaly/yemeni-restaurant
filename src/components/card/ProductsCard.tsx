@@ -4,12 +4,12 @@ import type React from "react"
 
 import { Heart, ShoppingCart, Timer, Check, Plus, Minus } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
+import { cn } from "@/app/lib/utils"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { useRouter } from "next/navigation"
-import { addToCart, updateCartQuantity, isFavorite, toggleFavorite } from "@/lib/localStorage"
+import { addToCart, updateCartQuantity, isFavorite, toggleFavorite } from "@/app/lib/localstorge"
 import { toast } from "sonner"
 
 interface ProductProps {

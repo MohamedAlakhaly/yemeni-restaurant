@@ -8,7 +8,7 @@ export function HomeCarousel() {
   const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true, active: true }))
 
   // In Next.js, we'll use public directory for images
-  const images = ["/assets/2.png", "/assets/1.png", "/assets/1.png", "/assets/2.png", "/assets/1.png"]
+  const images = ["/assets/1.png", "/assets/2.png", "/assets/3.webp", "/assets/4.webp", "/assets/5.png"]
 
   return (
     <Carousel

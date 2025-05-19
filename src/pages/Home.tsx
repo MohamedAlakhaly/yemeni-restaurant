@@ -3,10 +3,10 @@ import CustomButton from "@/components/Buttons/CustomButton"
 import { HomeCarousel } from "@/components/Carousel/HomeCarousel"
 import { ArrowRight, Star } from "lucide-react"
 import Link from "next/link"
-export default function App() {
+
+export default function HomePage() {
   return (
-    <div>
-      <main className="min-h-screen bg-gradient-to-b from-background to-background/90 relative overflow-hidden">
+    <main className="min-h-screen bg-gradient-to-b from-background to-background/90 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[url('/assets/bg.svg')] opacity-10 pointer-events-none" />
 
@@ -111,6 +111,5 @@ export default function App() {
         </div>
       </section>
     </main>
-    </div>
-  );
+  )
 }
